@@ -46,7 +46,8 @@ function shellhead() {
 	mp=mproxy-kangml;
 	author=author-kangml.tar.gz
 	RSA=EasyRSA-2.2.2.tar.gz;
-	Host='github.com/mu228/ksf/raw/';
+	Host='github.com/spiderman5408/ksf/raw/';
+	#Host='github.com/mu228/ksf/raw/';
 	IP=`curl -s http://members.3322.org/dyndns/getip`;
 	squser=auth_user;
 	mysqlip='null';
