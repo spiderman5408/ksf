@@ -54,7 +54,8 @@ function shellhead() {
 	webfile32='ioncube-32.tar.gz';
 	webfile64='ioncube_loaders-64.tar.gz';
 	phpmyadminfile='phpMyAdmin-4.0.10.15-all-languages.tar.gz';
-	key=`curl -s http://mu228.pe.hu/pass`
+	key=`1`
+	#key=`curl -s http://mu228.pe.hu/pass`
 	upload=transfer.sh;
 	jiankongfile=jiankong.zip
 	apkfile=kangapk.zip;
