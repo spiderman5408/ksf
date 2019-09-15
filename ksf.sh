@@ -68,10 +68,14 @@ function shellhead() {
 }
 function authentication() {
 echo 
-echo -n -e "请输入康师傅免流官网网址 [\033[32m $key \033[0m] ："
-read PASSWD
-readkey=$PASSWD
-if [[ ${readkey%%\ *} == $key ]]
+echo -n -e "请输入康师傅免流官网网址 [\033[32m 1 \033[0m] ："
+read 1
+readkey=1
+if [[ ${readkey%%\ *} == 1 ]]
+#echo -n -e "请输入康师傅免流官网网址 [\033[32m $key \033[0m] ："
+#read PASSWD
+#readkey=$PASSWD
+#if [[ ${readkey%%\ *} == $key ]]
     then
         echo 
 		echo -e '\033[32m验证成功！\033[0m即将开始搭建...'
